@@ -1,1 +1,88 @@
 /* Add your CSS style definitions to this file */
+* {
+    text-align:justify;
+}
+
+body {
+    margin: 0em 4em 0em 4em;
+    font-family: "open sans";
+    font-size: 0.9rem;
+    padding: 40px;
+}
+
+h1,
+blockquote {
+    font-family: "roboto slab";
+    font-size: 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+section{
+    width: 910px;
+}
+
+img.hero {
+    width: 100%;
+}
+
+blockquote {
+    font-size: 1.25rem;
+}
+
+footer {
+    background-color: #29293a;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: left;
+
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: hotpink;
+}
+
+article h1 {
+    color: #9f2042;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div#details {
+    color: #a9a9ba;
+    text-align: center;
+}
+
+
+
+div#buttons {
+    color: #ec8295;
+    text-align: left;
+    margin: 20px;
+}
+
+div#buttons a{
+    color: #ec8295;
+    text-align: left;
+    margin: 30px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+div#buttons a:hover{
+    color: #9f2042
+    ;
+    background-color: #a9a9ba;
+    text-align: left;
+    margin: 30px;
+    font-size: 0.9rem;
+}
