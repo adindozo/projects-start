@@ -1,6 +1,7 @@
 
 * {
-   box-sizing: border-box;
+   box-sizing: border-box; 
+   list-style-type: none;
 }
 body, section, header, div, p, h1, h2, h3, ul, li {
    margin: 0;
@@ -24,3 +25,80 @@ h1 {
 
 /* add styles here */
 
+body{
+   padding: 40px;
+}
+section{
+   width: 910px;
+   text-align: center;
+}
+
+div.column{
+   display: inline-block;
+   list-style-type: none;
+   background-color: white;
+   width: 300px;
+   /* font-weights: 800,600,400,300
+font-sizes: 36px,24px,18px */
+}
+
+div.featured{
+   background-color: #2F4F4F;
+   color: white;
+}
+
+p.price{
+   font-weight: 800;
+   font-size: 36px;
+}
+
+p.price span{
+   font-weight: normal;
+   font-size: 18px;
+}
+
+div.column span{
+   font-weight: 600;
+}
+div.column ul{
+   font-size: 18px;
+}
+h3{
+   font-size: 24px;
+}
+
+a{
+   background-color: #3A6BA5;
+   text-decoration: none;
+   display: inline-block;
+   width: 92%;
+   color: white;
+   padding: 10px;
+   margin: 15px;
+   margin-bottom: 25px;
+   
+}
+a:hover{
+   background-color: #437CBF;
+}
+
+.free{
+   background-color: #5BB189;
+}
+
+.standard{
+   background-color: #4B0082;
+}
+
+.professional{
+   background-color: #EC632A;
+}
+
+li:nth-child(even){
+   background-color: rgba(47,59,64,0.35);
+}
+
+#confidence{
+   background-color: #2F4F4F;
+   
+}
