@@ -1,11 +1,14 @@
 
 * {
    box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
 }
 body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
    margin: 0;
    padding: 0;
 }
+
 body {
    font-family: 'Open Sans', sans-serif;
    box-sizing: border-box;
@@ -13,4 +16,119 @@ body {
    font-weight: 300;
 }
 
-/* add styles here */
+/* add styles here */ 
+a{
+   text-decoration: none;
+}
+header{
+   background-image: url("images/florence.jpg");
+   background-size: cover;
+   min-height: 500px;
+}
+
+nav{
+   background-image: url("images/logo.png");
+   background-repeat: no-repeat;
+   background-size: 60px;
+}
+
+nav li{
+   list-style-type: none;
+   display: inline-block;
+   min-height: 60px;
+   margin-left: 30px;
+  
+ 
+}
+nav a:hover{
+   color: #8662C7;
+}
+
+nav a{
+   color: #51279B;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+nav ul{
+   padding: 16px;
+   padding-left: 90px;
+   
+}
+
+header div{
+   margin-top: auto;
+   color: white;
+   padding-left: 120px;
+   margin-top: 70px;
+}
+header div h2{
+   font-size: 48px;
+   margin-bottom: 20px;
+}
+
+header div p{
+   font-size: 24px;
+   margin-bottom: 30px;
+}
+
+header div a{
+   color: white;
+   background-color: #51279B;
+   padding: 15px;
+
+}
+
+header div a:hover{
+   
+   background-color:#8662C7;
+   padding: 15px;
+
+}
+main{
+   padding: 20px;
+   text-align: center;
+}
+.card h3{
+   margin-top: 10px;
+   font-size: 14px;
+   font-weight: normal;
+}
+.card p{
+   font-size: 12px;
+   margin: 10px 0px;
+}
+
+.card span{
+   font-size: 10px;
+}
+main img{
+   object-fit: cover;
+   width: 400px;
+   height: 300px;
+}
+
+.card{
+   display: inline-block;
+   margin: auto;
+   text-align: left;
+}
+
+.heart{
+   background-image: url('images/heart.png');
+   display: inline-block;
+   background-size: 15px;
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   min-height: 20px;
+}
+
+.comment{
+   background-image: url('images/comment.png');
+   display: inline-block;
+   background-size: 15px;
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   min-height: 20px;
+   margin-left: 10px;
+}
