@@ -1,6 +1,5 @@
 /* general text formatting */
 
-
 body {
    font-family: "Roboto", Verdana, Arial, sans-serif;
    font-size: 100%;
@@ -40,4 +39,99 @@ section h3 {
 /* table formatting -- you will add these */
 
 
+.tbl{
+    padding: 5px 20px;
+}
 
+
+table caption{
+    background-color: #607D8B;
+    color: white;
+    margin:  5px 20px;;
+    padding: 10px 0px;
+}
+
+table{
+    padding: 0px 20px;
+    width: 100%;
+}
+
+th, td{
+    padding: 15px;
+}
+
+progress{
+    border-radius: 0px;
+    background: #03A9F4;
+    border: 1px solid black;
+}
+
+progress::-webkit-progress-value {
+    background: rgb(63, 214, 214);
+  }
+  
+  progress::-webkit-progress-bar {
+    background: rgb(255, 255, 255);
+  }
+
+  input, select, label{
+    display: block;
+  }
+  input[type="checkbox"]{
+    display: inline-block;
+  }
+  label{
+    margin-top: 15px;
+  }
+
+  .cb{
+    margin-top: 0px;
+  }
+
+  legend{
+    color: white;
+    background-color: #607D8B;
+    text-align: center;
+    padding: 10px 0px;
+    width: 98%;
+    margin-top: 20px;
+  }
+
+
+ form{
+    padding: 5px 40px;
+  }
+
+  section{
+    border: 0px;
+  }
+  label{
+    font-weight: bold;
+  }
+ 
+
+  .radio input, .radio label{
+    margin: 0px;
+    font-weight: normal;
+    display: inline-block;
+    
+  }
+  .radio label{
+  
+    margin-right: 10px;
+  }
+
+  input,select{
+    padding: 5px;
+    border: 1px solid rgb(196, 196, 196);
+  }
+
+  input[type="submit"]{
+    background-color: purple;
+    color: white;
+    border-radius: 1px;
+    border: 0px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
