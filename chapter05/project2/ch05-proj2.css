@@ -11,13 +11,13 @@ body {
 h1, h2, h3, nav, footer {
    font-weight: 500;
   }
-
+ 
 
 legend {
    background-color: var(--color-primary-1-900) ;
    color: var(--color-primary-1-050);
    margin: 0 auto;
-   width: 90%;
+   width: 100%;
    padding: 0.25em;
    text-align: center;
    font-weight: 500;
@@ -56,5 +56,39 @@ caption {
 }
 
 
+ul{
+   margin: 0px;
+   padding: 0px;
+   display: inline-block;
+   text-decoration: none;
+   list-style-type: none;
+}
 
+li{
+   display: inline-block;
+}
 
+#search{
+  margin-left: 15px;
+  padding: 10px 10px;
+  margin-right: 50px;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 5px;
+  width: 15rem;
+}
+.submit{
+   border: 0px;
+   color: white;
+   border-radius: 5px;
+   background-color: var(--color-primary-1-600);
+   padding: 10px 15px;
+}
+
+select{
+   margin-top: 20px;
+   border: 1px solid var(--color-neutral-300);
+   padding: 5px;
+   margin-left: 15px;
+   border-radius: 5px;
+   margin-right: 20px;
+}

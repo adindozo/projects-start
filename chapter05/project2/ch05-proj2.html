@@ -7,16 +7,41 @@
    <link rel="stylesheet" href="variables-palette-7.css" >   
    <link rel="stylesheet" href="ch05-proj2.css" />
 </head>
-<body>
-<form >
+<body> 
+<form method="get" action="https://www.randyconnolly.com/tests/process.php">
 <fieldset>
-   <legend>Advanced Art Work Search</legend>
+   <legend>Advanced Art Work Search</legend> 
    
     <div id="searchBox">
-     
+     <input type="text" placeholder="Search files" id="search" name="search">
+     <label>Subject:</label>
+     <ul>
+      
+      <li><label for="history"><input type="radio" name="subject" id="history" value="1">History</label></li>
+      <li><label for="person"><input type="radio" name="subject" id="person" value="2">Person</label></li>
+      <li><label for="landscape"><input type="radio" name="subject" id="landscape" value="3">Landscape</label></li>
+      
+     </ul>
+     <select name="filter">
+      <option selected value="0">Select genre</option>
+      <option value="1">Baroque</option>
+      <option value="2">Rennaisance</option>
+      <option value="3">Realism</option>
+     </select>
+     <button type="submit" class="submit">Filter</button>
+
+
     </div>   
     <div id="settingsBox">
-
+      <select name="actions">
+         <option value="0">Bulk Actions</option>
+         <option value="1">Archive</option>
+         <option value="2">Edit</option>
+         <option value="3">Delete</option>
+         <option value="4">Collection</option>
+      </select>
+      
+      <button type="submit" class="submit">Apply To All</button>
 
     </div>
     <div id="paintingBox">
