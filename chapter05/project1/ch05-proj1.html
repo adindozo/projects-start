@@ -73,13 +73,13 @@
 
      <section>
           <h3 id="second">Revise</h3>
-          <form method="pOsT" action="https://www.randyconnolly.com/tests/process.php">
+          <form method="post" action="https://www.randyconnolly.com/tests/process.php">
                <fieldset>
                     <legend>Filter Orders</legend>
                     <label for="1">Customer</label>
-                    <input id="1" type="text" placeholder="Client name" name="Customer">
+                    <input id="1" type="text" placeholder="Client name" name="client" value="a">
                     <label for="2">Country</label>
-                    <select name="Country" id="2">
+                    <select name="country" id="2">
                          <option selected>Choose a country</option>
                          <option>Bosnia</option>
                          <option>France</option>
@@ -87,11 +87,11 @@
                     </select>
                     <label for="3">Status</label>
                     <div id="3" class="radio">
-                         <input type="radio" id="6" name="Status">
+                         <input type="radio" id="6" name="type" value="pending">
                          <label for="6">Pending</label>
-                         <input type="radio" id="8" name="Status">
+                         <input type="radio" id="8" name="type"  value="processing">
                          <label for="8">Processing</label>
-                         <input type="radio" id="9" name="Status">
+                         <input type="radio" id="9" name="type" value="shipped">
                          <label for="9">Shipped</label>
 
 
@@ -102,7 +102,7 @@
                          <label class="cb for=""><input type=" checkbox">Shipped</label> -->
                     </div>
                     <label for="date">Order date</label>
-                    <input type="date" id="date" name="orderdate">
+                    <input type="date" id="date" name="date">
                     <input type="submit">
                </fieldset>
           </form>

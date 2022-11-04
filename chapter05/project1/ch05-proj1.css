@@ -54,6 +54,7 @@ table caption{
 table{
     padding: 0px 20px;
     width: 100%;
+    text-align: center;
 }
 
 th, td{
