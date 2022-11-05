@@ -1,53 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="utf-8">
    <title>Chapter 5</title>
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="variables-palette-7.css" >   
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="variables-palette-7.css">
    <link rel="stylesheet" href="ch05-proj2.css" />
 </head>
-<body> 
-<form method="get" action="https://www.randyconnolly.com/tests/process.php">
-<fieldset>
-   <legend>Advanced Art Work Search</legend> 
-   
-    <div id="searchBox">
-     <input type="text" placeholder="Search files" id="search" name="search">
-     <label>Subject:</label>
-     <ul>
-      
-      <li><label for="history"><input type="radio" name="subject" id="history" value="1">History</label></li>
-      <li><label for="person"><input type="radio" name="subject" id="person" value="2">Person</label></li>
-      <li><label for="landscape"><input type="radio" name="subject" id="landscape" value="3">Landscape</label></li>
-      
-     </ul>
-     <select name="filter">
-      <option selected value="0">Select genre</option>
-      <option value="1">Baroque</option>
-      <option value="2">Rennaisance</option>
-      <option value="3">Realism</option>
-     </select>
-     <button type="submit" class="submit">Filter</button>
+
+<body>
+   <form method="get" action="https://www.randyconnolly.com/tests/process.php">
+      <fieldset>
+         <legend>Advanced Art Work Search</legend>
+
+         <div id="searchBox">
+            <input type="text" placeholder="Search files" id="search" name="search">
+            <label>Subject:</label>
+            <ul>
+
+               <li><label for="history"><input type="radio" name="subject" id="history" value="1">History</label></li>
+               <li><label for="person"><input type="radio" name="subject" id="person" value="2">Person</label></li>
+               <li><label for="landscape"><input type="radio" name="subject" id="landscape" value="3">Landscape</label>
+               </li>
+
+            </ul>
+            <select name="filter">
+               <option selected value="0">Select genre</option>
+               <option value="1">Baroque</option>
+               <option value="2">Rennaisance</option>
+               <option value="3">Realism</option>
+            </select>
+            <button type="submit" class="submit">Filter</button>
 
 
-    </div>   
-    <div id="settingsBox">
-      <select name="actions">
-         <option value="0">Bulk Actions</option>
-         <option value="1">Archive</option>
-         <option value="2">Edit</option>
-         <option value="3">Delete</option>
-         <option value="4">Collection</option>
-      </select>
-      
-      <button type="submit" class="submit">Apply To All</button>
+         </div>
+         <div id="settingsBox">
+            <select name="actions">
+               <option value="0">Bulk Actions</option>
+               <option value="1">Archive</option>
+               <option value="2">Edit</option>
+               <option value="3">Delete</option>
+               <option value="4">Collection</option>
+            </select>
 
-    </div>
-    <div id="paintingBox">
+            <button type="submit" class="submit">Apply To All</button>
 
-    </div> 
-</fieldset>  
-</form>
+         </div>
+         <div id="paintingBox">
+            <table>
+               <caption>Paintings</caption>
+               <thead>
+                  <tr>
+                     <th colspan="3">Title</th>
+                     <th>Artist</th>
+                     <th>Year</th>
+                     <th>Gener</th>
+                     <th>Actions</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  
+                  <tr>
+
+                     <td>  <label for="0"><input type="checkbox" id="0" name ="index[]" value="0"></label> </td>
+                     <td>
+                        <label for="0">
+                           <img src="./images/125010.jpg" alt="Portrait of Alida Christina Assink" class="painting">
+
+                        </label>
+                     </td>
+                     <td><label for="0">Portrait of Alida Christina Assink</label></td>
+
+                     <td>Kussena Jan</td>
+                     <td>1933</td>
+                     <td>Realism</td>
+                     <td><button type="button"><img src="./images/edit.png" alt=""></button><button type="button"><img
+                              src="./images/archive.png" alt=""></button><button type="button"><img
+                              src="./images/delete.png" alt=""></button></td>
+                     </label>
+
+
+
+                  </tr>
+                  <tr>
+
+                     <td>  <label for="1"><input type="checkbox" id="1" name ="index[]" value="1"></label> </td>
+                     <td>
+                        <label for="1">
+                           <img src="./images/125020.jpg" alt="Portrait of Alida Christina Assink" class="painting">
+
+                        </label>
+                     </td>
+                     <td><label for="1">Portrait of Alida Christina Assink</label></td>
+
+                     <td>Kussena Jan</td>
+                     <td>1933</td>
+                     <td>Realism</td>
+                     <td><button type="button"><img src="./images/edit.png" alt=""></button><button type="button"><img
+                              src="./images/archive.png" alt=""></button><button type="button"><img
+                              src="./images/delete.png" alt=""></button></td>
+                     </label>
+
+
+
+                  </tr>
+                  <tr>
+
+                     <td>  <label for="2"><input type="checkbox" id="2" name ="index[]" value="2"></label> </td>
+                     <td>
+                        <label for="2">
+                           <img src="./images/127010.jpg" alt="Portrait of Alida Christina Assink" class="painting">
+
+                        </label>
+                     </td>
+                     <td><label for="2">Portrait of Alida Christina Assink</label></td>
+
+                     <td>Kussena Jan</td>
+                     <td>1933</td>
+                     <td>Realism</td>
+                     <td><button type="button"><img src="./images/edit.png" alt=""></button><button type="button"><img
+                              src="./images/archive.png" alt=""></button><button type="button"><img
+                              src="./images/delete.png" alt=""></button></td>
+                     </label>
+
+
+
+                  </tr>
+                  <tr>
+
+                     <td>  <label for="3"><input type="checkbox" id="3" name ="index[]" value="3"></label> </td>
+                     <td>
+                        <label for="3">
+                           <img src="./images/128010.jpg" alt="Portrait of Alida Christina Assink" class="painting">
+
+                        </label>
+                     </td>
+                     <td><label for="3">Portrait of Alida Christina Assink</label></td>
+
+                     <td>Kussena Jan</td>
+                     <td>1933</td>
+                     <td>Realism</td>
+                     <td><button type="button"><img src="./images/edit.png" alt=""></button><button type="button"><img
+                              src="./images/archive.png" alt=""></button><button type="button"><img
+                              src="./images/delete.png" alt=""></button></td>
+                     </label>
+
+
+
+                  </tr>
+                  <tr>
+
+                     <td>  <label for="4"><input type="checkbox" id="4" name ="index[]" value="4"></label> </td>
+                     <td>
+                        <label for="4">
+                           <img src="./images/130020.jpg" alt="Portrait of Alida Christina Assink" class="painting">
+
+                        </label>
+                     </td>
+                     <td><label for="4">Portrait of Alida Christina Assink</label></td>
+
+                     <td>Kussena Jan</td>
+                     <td>1933</td>
+                     <td>Realism</td>
+                     <td><button type="button"><img src="./images/edit.png" alt=""></button><button type="button"><img
+                              src="./images/archive.png" alt=""></button><button type="button"><img
+                              src="./images/delete.png" alt=""></button></td>
+                     </label>
+
+
+
+                  </tr>
+               </tbody>
+            </table>
+
+         </div>
+      </fieldset>
+   </form>
 </body>
+
 </html>
