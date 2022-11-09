@@ -12,7 +12,7 @@ body {
    background-color: #E8EAF6;
 }
 
-
+ 
 /* header and navigation */
 
 header, footer {
@@ -73,6 +73,9 @@ form p {
 
 
 
+table,textarea, input{
+   width: 100%;
+}
 
 
 
