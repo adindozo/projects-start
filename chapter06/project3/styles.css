@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
-
+html{
+    height: 100vh;
+}
 p, h1, h2, h3, ul, li, body {
     padding: 0;
     margin: 0;    
@@ -63,3 +65,10 @@ figcaption {
    margin-bottom: 1em;   
 }
 
+header{
+    background-image: repeating-linear-gradient(45deg,black 0, black 30px, rgb(0, 91, 165) 30px,  rgb(0, 91, 165) 80px);
+}
+
+body{
+    background-image: linear-gradient(rgb(149, 137, 255),white);
+}
