@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "lucky.db.elephantsql.com",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "VjezbaLV",
+            "database": "vxxymtgx",
+            "username": "vxxymtgx"
+        },
+        {
+            "previewLimit": 50,
+            "server": "lucky.db.elephantsql.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "vxxymtgx",
+            "username": "vxxymtgx",
+            "password": "QtZGvk8TQTLcn4RJ8qztbIZjAfRieaQ3",
+            "name": "vxxymtgx"
+        }
+    ]
+}

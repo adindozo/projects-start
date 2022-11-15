@@ -19,7 +19,7 @@ const content = `[
          "day200MovingAvg":190.2981,
          "day50MovingAvg":182.26201,
          "costOfRevenue":52279000000,
-         "operatingRevenue":84310000000,
+         "operatingRevenue":86910000000,
          "totalAssets":373719000000,
          "totalLiabilities":255827000000,
          "sharesOutstanding":4715280000
