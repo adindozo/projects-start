@@ -21,6 +21,21 @@ window.onload=() => {
             let features = paintings.find(element => element.id==e.target.dataset.id).features;
             for(let feature of features){
                 //todo generate rects, step 5
+                let rect = document.createElement('div');
+                rect.className='box';
+                rect.style.width=feature.lowerRight[1]-feature.upperLeft[1]+'px';
+                rect.style.height=feature.lowerRight[0]-feature.upperLeft[0]+'px';
+                rect.style.position='absolute';
+                rect.style.left=feature.upperLeft[0]+'px';
+                rect.style.top=feature.upperLeft[1]+'px';
+                rect.addEventListener('mouseover',() => {
+                    document.getElementById('description').textContent=feature.description;
+                })
+                rect.addEventListener('mouseout',() => {
+                    document.getElementById('description').textContent=null;
+                })
+
+                document.querySelector('figure').appendChild(rect);
             }
         }
     })
