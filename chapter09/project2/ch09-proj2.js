@@ -40,3 +40,12 @@ window.onload=() => {
         }
     })
 }
+let arr=[1,2,3];
+let arr2=[2,3];
+console.log(arr)
+
+console.log(arr2)
+arr.push(arr2);
+
+console.log(typeof arr)
+console.log(arr)
