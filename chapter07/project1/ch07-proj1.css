@@ -58,6 +58,75 @@ button {
 
 /* add your styles here */
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 24%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img{
+    max-width: 100%;
+}
+
+img:hover{
+    filter: saturate(150%);
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px gray;
+  
+}
+
+.card:hover .card-actions button{
+    opacity: 1;
+  
+}
+
+.card-actions button{
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    
+}
+
+
+@media (max-width: 768px) {
+    :root{
+        --card-font-size: 100%;
+        --header-height: 5em;
+    }
+    .card{
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    :root{
+        --header-font-size: 24px;
+        --header-height: 4em;
+        
+
+    }
+    .card{
+        width: 100%;
+    }
+}
 
 
 
